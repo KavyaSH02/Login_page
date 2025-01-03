@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    place-items: center;
+    font-family: Arial, sans-serif; /* Optional: Add a font-family */
+}
+h1 {
+    margin-top: 20vh;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: rgb(111, 70, 23); /* Adjusted for better visibility */
+}
+input {
+    font-size: 1rem;
+    width: 300px;
+    padding: 6px 2px; 
+    margin: 10px 0;
+    border: 1px solid rgb(111, 70, 23); /* Optional: Add a border for better visibility */
+    border-radius: 5px; /* Optional: Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+.sub {
+    background-color: rgb(223, 155, 52);
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px; /* Optional: Rounded corners */
+    transition: background-color 0.3s ease; /* Optional: Add a hover effect */
+}
+.sub:hover {
+    background-color: rgb(200, 140, 50); /* Optional: Slightly darker hover effect */
+}
+form {
+    text-align: center;
+    border: 5px solid rgb(111, 70, 23);
+    padding: 20px;
+    background-color: rgb(239, 192, 135);
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+}
