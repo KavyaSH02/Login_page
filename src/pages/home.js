@@ -35,7 +35,7 @@ export default function HomePage() {
 
         {/* Notification Icon */}
         <div
-          onClick={() => router.push("/Notification")}
+          onClick={() => router.push("/notification")}
           style={{ textAlign: "center", cursor: "pointer" }}
         >
           <FaBell size={40} color="orange" />
